@@ -17,9 +17,9 @@ const projectsData = [
     id: 2,
     title: "Smart Tic Tac Toe Game",
     description: "A responsive Tic Tac Toe game with AI (Minimax) and 2-Player mode, built using HTML, CSS, and JavaScript.",
-    image: "/images/projects/tic1.png",
+    image: "/images/projects/tic2.png",
     tag: ["All", "Web","Mobile"],
-    previewUrl: "  https://achillessssssss.github.io/Tic-Tac-Toe/",
+    previewUrl: " https://achillessssssss.github.io/Tic-Tac-Toe/",
   },
   
 
