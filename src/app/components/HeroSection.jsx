@@ -66,32 +66,32 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-5 place-self-center mt-4 lg:mt-0"
         >
-  <div className="pt-24 flex justify-center">
-  <div className="relative w-[220px] h-[220px] md:w-[320px] md:h-[320px] lg:w-[420px] lg:h-[420px] group transition-transform duration-700 ease-in-out hover:scale-105 hover:rotate-[0.5deg]">
+       <div className="pt-24 flex justify-center">
+  <div className="relative w-[220px] h-[220px] lg:w-[420px] lg:h-[420px] group transition-transform duration-700 ease-in-out hover:scale-105 hover:rotate-[0.5deg]">
 
     {/* Pulsing Gradient Halo (Outer Glow) */}
     <div className="absolute inset-0 rounded-full bg-gradient-to-br from-cyan-400 via-blue-600 to-indigo-700 opacity-30 blur-2xl scale-110 animate-pulse-slow" />
 
     {/* Gradient Border Ring with Subtle Glow */}
-    <div className="absolute inset-[6px] md:inset-[10px] lg:inset-[12px] rounded-full bg-gradient-to-br from-blue-900/40 via-sky-500/10 to-transparent backdrop-blur-lg border-[3px] md:border-[4px] lg:border-[5px] border-white/10 shadow-[0_0_30px_rgba(0,255,255,0.1)] group-hover:shadow-[0_0_50px_rgba(0,255,255,0.25)] transition-all duration-700 ease-in-out" />
+    <div className="absolute inset-[6px] lg:inset-[12px] rounded-full bg-gradient-to-br from-blue-900/40 via-sky-500/10 to-transparent backdrop-blur-lg border-[3px] lg:border-[5px] border-white/10 shadow-[0_0_30px_rgba(0,255,255,0.1)] group-hover:shadow-[0_0_50px_rgba(0,255,255,0.25)] transition-all duration-700 ease-in-out" />
 
     {/* Soft Background Blur Ring */}
-    <div className="absolute inset-6 md:inset-8 lg:inset-10 rounded-full bg-gradient-to-tr from-slate-900/80 to-slate-800/60 blur-sm" />
+    <div className="absolute inset-6 lg:inset-10 rounded-full bg-gradient-to-tr from-slate-900/80 to-slate-800/60 blur-sm" />
 
     {/* Profile Image */}
     <div className="relative z-10 w-full h-full rounded-full overflow-hidden ring-1 ring-white/10 shadow-lg shadow-black/30 group-hover:shadow-xl">
       <Image
         src="/images/h.png"
         alt="Profile Picture"
-        className="object-cover w-full h-full transition-transform duration-500 ease-in-out group-hover:scale-105"
-        fill
+        className="object-cover  transition-transform duration-500 ease-in-out group-hover:scale-105"
+        width={420}
+        height={420}
         priority
       />
     </div>
 
   </div>
 </div>
-
 
 
 
