@@ -48,16 +48,17 @@ const HeroSection = () => {
             design thinking to deliver meaningful digital experiences that make
             an impact.
           </p>
-          <div className="flex flex-wrap gap-4">
-            <button className="px-6 py-3 rounded-full bg-gradient-to-br from-[#4682B4] via-[#4169E1] to-[#00FFFF] hover:bg-cyan-400 text-white transition-all duration-300 ease-in-out">
-              Hire Me
-            </button>
-            <button className="px-1 py-1 rounded-full bg-gradient-to-br from-[#4682B4] via-[#4169E1] to-[#00FFFF] hover:bg-cyan-600 text-white transition-all duration-300 ease-in-out">
-              <span className="block bg-[#121212] hover:bg-cyan-700 rounded-full px-5 py-2">
-                Download CV
-              </span>
-            </button>
-          </div>
+          <div className="flex flex-wrap gap-4 justify-center sm:justify-start">
+  <button className="px-6 py-3 rounded-full bg-gradient-to-br from-[#4682B4] via-[#4169E1] to-[#00FFFF] hover:bg-cyan-400 text-white transition-all duration-300 ease-in-out">
+    Hire Me
+  </button>
+  <button className="px-1 py-1 rounded-full bg-gradient-to-br from-[#4682B4] via-[#4169E1] to-[#00FFFF] hover:bg-cyan-600 text-white transition-all duration-300 ease-in-out">
+    <span className="block bg-[#121212] hover:bg-cyan-700 rounded-full px-5 py-2">
+      Download CV
+    </span>
+  </button>
+</div>
+
         </motion.div>
         {/* Right Section - Hero Image */}
         <motion.div
@@ -66,7 +67,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-5 place-self-center mt-4 lg:mt-0"
         >
-       <div className="pt-24 flex justify-center">
+       <div className="pt-10 flex justify-center">
   <div className="relative w-[220px] h-[220px] lg:w-[420px] lg:h-[420px] group transition-transform duration-700 ease-in-out hover:scale-105 hover:rotate-[0.5deg]">
 
     {/* Pulsing Gradient Halo (Outer Glow) */}
