@@ -48,7 +48,7 @@ const HeroSection = () => {
             design thinking to deliver meaningful digital experiences that make
             an impact.
           </p>
-          <div className="flex flex-wrap gap-4 justify-center sm:justify-start">
+          {/*<div className="flex flex-wrap gap-4 justify-center sm:justify-start">
   <button className="px-6 py-3 rounded-full bg-gradient-to-br from-[#4682B4] via-[#4169E1] to-[#00FFFF] hover:bg-cyan-400 text-white transition-all duration-300 ease-in-out">
     Hire Me
   </button>
@@ -57,7 +57,7 @@ const HeroSection = () => {
       Download CV
     </span>
   </button>
-</div>
+</div>*/}
 
         </motion.div>
         {/* Right Section - Hero Image */}
@@ -85,8 +85,8 @@ const HeroSection = () => {
         src="/images/h.png"
         alt="Profile Picture"
         className="object-cover  transition-transform duration-500 ease-in-out group-hover:scale-105"
-        width={420}
-        height={420}
+        width={600}
+        height={100}
         priority
       />
     </div>
